@@ -1,6 +1,6 @@
 
 def run_guessing_game
-  r = rand 1..6
+  r = rand 0...6
   i = gets.chomp.to_i
 
   if i == 0
