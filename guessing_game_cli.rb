@@ -3,7 +3,7 @@ def run_guessing_game
   r = rand 0...6
   i = gets.chomp
 
-  if i == 0
+  if i == 'exit'
     puts "Goodbye!"
   else
     if r == i
