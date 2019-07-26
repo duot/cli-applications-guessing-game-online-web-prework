@@ -1,7 +1,7 @@
 
 def run_guessing_game
   r = rand 0...6
-  i = gets.chomp.to_i
+  i = gets.chomp
 
   if i == 0
     puts "Goodbye!"
